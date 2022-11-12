@@ -229,7 +229,36 @@ h3{
     }
     
 }
+@media(max-height:550px){
+    @keyframes correct{
+        0%{
+            
+            
+            transform: translateY(0px)
+            
+        }
+        100%{
+            
+            transform: translateY(-250px);
+            
+            
+        }
+    }
+    p{
+        font-size: 11px;
 
+    }
+    li{
+        font-size: 11px;
+
+    }
+    h3{
+        font-size: 13px;
+    }
+    .qr{
+        width:50%
+    }
+}
 @media(min-width: 427px){
     
     p{
